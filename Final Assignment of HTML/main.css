@@ -1,0 +1,100 @@
+.navigation-menu
+{
+	background-color: rgb(91, 155, 212);
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 120px;
+}
+.navigation-menu ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	/* height: 140px; */
+}
+.navigation-menu li
+{
+	float: left;
+	/* border: 1px solid black; */
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+a
+{
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	font-family: Calibri;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+.logo
+{
+	height: 120px;
+	padding: 20px;
+}
+.container
+{
+	display: flex;/*These 2 lines horizontally align a ul inside a div.*/
+	justify-content: center;
+	/* border: 1px solid black; */
+	width: 90%;
+	margin-top: 15px;
+}
+*
+{
+	box-sizing: border-box;
+
+}
+p
+{
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: justify;
+}
+body
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.footer
+{
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgb(91, 155, 212);
+	border: 1px solid black;
+	padding: 5px;
+	font-family: Calibri;
+	font-size: 18px;
+}
+/*About*/
+div div
+{
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+.profile
+{
+	float:right;
+	padding: 5px 0px 10px 30px;
+	border-radius: 50px;
+	width: 300px;
+}
+
+ul
+{
+	font-family: Calibri;
+	font-size: 20px;
+	list-style-position: inside;/*These 2 lines remove default indentation of lists.*/
+	padding-left: 0;
+}
+
+/*Portfolio*/
+.portfolio
+{
+	float:left;
+	padding: 5px 30px 10px 0px;
+	width: 300px;
+}
